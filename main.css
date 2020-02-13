@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Oxygen', sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -19,12 +19,15 @@ main {
 nav a {
   text-decoration: none;
   padding: 5px 10px;
-  color: black;
+  color: white;
   font-weight: 800;
 }
 
 #welcome-section {
   background-color: hsl(50, 100%, 90%);
+  background-image: url("img/water_fall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -37,10 +40,14 @@ nav a {
 #welcome {
   text-align: center;
   text-justify: center;
+  color: white;
 }
 
 #development-section {
   background-color: hsl(100%, 100%, 100%);
+  background-image: url("img/school_house.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   display: flex;
