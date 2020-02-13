@@ -1,0 +1,123 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px 10px;
+}
+
+main {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: black;
+  font-weight: 800;
+}
+
+#welcome-section {
+  background-color: hsl(50, 100%, 90%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+#welcome {
+  text-align: center;
+  text-justify: center;
+}
+
+#development-section {
+  background-color: hsl(100%, 100%, 100%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+#development-section header {
+  text-align: center;
+  font-size: 24px;
+}
+
+#development-article {
+  text-align: center;
+  font-size: 12px;
+}
+
+#development-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media screen and (max-width: 600px) {
+  #development-content {
+    display: flex;
+    width: 100%;
+  }
+}
+
+article {
+  justify-self: center;
+  padding: 10px 10px;
+}
+
+
+#photography-section {
+  background-color: hsl(50, 100%, 90%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#photography-section header {
+  text-align: center;
+  font-size: 24px;
+}
+
+
+#photography-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media screen and (max-width: 600px) {
+  #photography-content {
+    display: flex;
+    width: 100%;
+  }
+}
+
+#photography-article {
+  text-align: center;
+  font-size: 12px;
+}
+
+#photography-tile {
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+
+#footer {
+  text-align: center;
+  padding: 30px 10px 5px 10px;
+  background-color: hsl(40, 100%, 95%);
+}
