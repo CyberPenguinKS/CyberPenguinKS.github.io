@@ -18,6 +18,7 @@ main {
 
 nav a {
   text-decoration: none;
+  text-shadow: 4px 4px 5px black;
   padding: 5px 10px;
   color: white;
   font-weight: 800;
@@ -40,6 +41,7 @@ nav a {
 #welcome {
   text-align: center;
   text-justify: center;
+  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
@@ -59,6 +61,8 @@ nav a {
 #development-section header {
   text-align: center;
   font-size: 24px;
+  text-shadow: 2px 2px 5px black;
+  color: white;
 }
 
 #development-article {
@@ -85,6 +89,9 @@ article {
 
 #photography-section {
   background-color: hsl(50, 100%, 90%);
+  background-image: url("img/purple_iris.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -98,6 +105,8 @@ article {
 #photography-section header {
   text-align: center;
   font-size: 24px;
+  text-shadow: 2px 2px 5px black;
+  color: white;
 }
 
 
