@@ -30,6 +30,11 @@ nav a {
   font-weight: 800;
 }
 
+iframe {
+    frameborder: 0;
+    scrolling: No;
+}
+
 #welcome-section {
   background-image: url("img/water_fall.jpg");
   background-repeat: no-repeat;
