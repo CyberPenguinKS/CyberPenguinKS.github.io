@@ -1,7 +1,14 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
 body {
-  font-family: 'Oxygen', sans-serif;
+  background-color: black;
+  font-family: sans-serif;
   margin: 0px;
   padding: 0px;
+  color: white;
 }
 
 nav {
@@ -20,12 +27,10 @@ nav a {
   font-size: 14px;
   text-decoration: none;
   padding: 5px 10px;
-  color: white;
   font-weight: 800;
 }
 
 #welcome-section {
-  background-color: black;
   background-image: url("img/water_fall.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,26 +46,25 @@ nav a {
 #welcome {
   text-align: center;
   text-justify: center;
-  color: white;
 }
 
 #development-section {
-  background-color: black;
   background-image: url("img/school_house.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  display: flex;
   margin: 0px;
   padding: 0px;
   align-items: center;
   justify-content: center;
+  display: grid;
+  grid-template-rows: 20% 80%;
 }
+
 #development-section header {
   text-align: center;
   font-size: 24px;
-  color: white;
 }
 
 #development-article {
@@ -86,24 +90,24 @@ article {
 
 
 #photography-section {
-  background-color: black;
   background-image: url("img/purple_iris.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  display: flex;
   margin: 0px;
   padding: 0px;
   align-items: center;
   justify-content: center;
+  display: grid;
+  grid-template-rows: 20% 80%;
 }
 
 
 #photography-section header {
   text-align: center;
   font-size: 24px;
-  color: white;
+  margin: 30px;
 }
 
 
@@ -121,6 +125,8 @@ article {
 #photography-article {
   text-align: center;
   font-size: 12px;
+  width: 100%;
+  overflow-wrap: break-all;
 }
 
 #photography-tile {
@@ -131,7 +137,5 @@ article {
 
 #footer {
   text-align: center;
-  color: white;
   padding: 30px 10px 5px 10px;
-  background-color: black;
 }
