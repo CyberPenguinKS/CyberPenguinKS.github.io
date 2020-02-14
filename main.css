@@ -40,6 +40,11 @@ iframe {
     scrolling: No;
 }
 
+article {
+  justify-self: center;
+  padding: 10px 10px;
+}
+
 #welcome-section {
   background-image: url("img/water_fall.jpg");
   background-repeat: no-repeat;
@@ -80,12 +85,6 @@ iframe {
     width: 100%;
   }
 }
-
-article {
-  justify-self: center;
-  padding: 10px 10px;
-}
-
 
 #photography-section {
   background-image: url("img/purple_iris.jpg");
