@@ -17,15 +17,15 @@ main {
 }
 
 nav a {
+  font-size: 14px;
   text-decoration: none;
-  text-shadow: 4px 4px 5px black;
   padding: 5px 10px;
   color: white;
   font-weight: 800;
 }
 
 #welcome-section {
-  background-color: hsl(50, 100%, 90%);
+  background-color: black;
   background-image: url("img/water_fall.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,12 +41,11 @@ nav a {
 #welcome {
   text-align: center;
   text-justify: center;
-  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
 #development-section {
-  background-color: hsl(100%, 100%, 100%);
+  background-color: black;
   background-image: url("img/school_house.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +60,6 @@ nav a {
 #development-section header {
   text-align: center;
   font-size: 24px;
-  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
@@ -88,7 +86,7 @@ article {
 
 
 #photography-section {
-  background-color: hsl(50, 100%, 90%);
+  background-color: black;
   background-image: url("img/purple_iris.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,7 +103,6 @@ article {
 #photography-section header {
   text-align: center;
   font-size: 24px;
-  text-shadow: 2px 2px 5px black;
   color: white;
 }
 
@@ -134,6 +131,7 @@ article {
 
 #footer {
   text-align: center;
+  color: white;
   padding: 30px 10px 5px 10px;
-  background-color: hsl(40, 100%, 95%);
+  background-color: black;
 }
