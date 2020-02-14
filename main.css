@@ -3,6 +3,11 @@ a {
   color: white;
 }
 
+p {
+    margin: 30px;
+    padding: 10px;
+}
+
 body {
   background-color: black;
   font-family: sans-serif;
@@ -42,15 +47,12 @@ iframe {
   width: 100vw;
   height: 100vh;
   display: flex;
-  margin: 0px;
+  flex-direction: column;
+  margin: 20px;
   padding: 0px;
   align-items: center;
   justify-content: center;
-}
-
-#welcome {
   text-align: center;
-  text-justify: center;
 }
 
 #development-section {
@@ -59,22 +61,13 @@ iframe {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  margin: 0px;
+  margin: 20px;
   padding: 0px;
   align-items: center;
   justify-content: center;
   display: grid;
   grid-template-rows: 20% 80%;
-}
-
-#development-section header {
   text-align: center;
-  font-size: 24px;
-}
-
-#development-article {
-  text-align: center;
-  font-size: 12px;
 }
 
 #development-content {
@@ -100,21 +93,14 @@ article {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  margin: 0px;
+  margin: 20px;
   padding: 0px;
   align-items: center;
   justify-content: center;
   display: grid;
   grid-template-rows: 20% 80%;
-}
-
-
-#photography-section header {
   text-align: center;
-  font-size: 24px;
-  margin: 30px;
 }
-
 
 #photography-content {
   display: grid;
@@ -126,19 +112,6 @@ article {
     width: 100%;
   }
 }
-
-#photography-article {
-  text-align: center;
-  font-size: 12px;
-  width: 100%;
-  overflow-wrap: break-all;
-}
-
-#photography-tile {
-  text-decoration: none;
-  padding: 20px 20px;
-}
-
 
 #footer {
   text-align: center;
