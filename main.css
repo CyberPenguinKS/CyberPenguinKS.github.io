@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
 a {
   text-decoration: none;
   color: white;
@@ -10,7 +12,7 @@ p {
 
 body {
   background-color: black;
-  font-family: sans-serif;
+  font-family: "Source Code Pro";
   margin: 0px;
   padding: 0px;
   color: white;
@@ -45,34 +47,70 @@ article {
   padding: 10px 10px;
 }
 
+
 #welcome-section {
-  background-image: url("img/water_fall.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 10px;
   padding: 0px;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
+@media only screen and (max-width: 800px) {
+  #welcome-section {
+    background-image: url("img/water_fall_low.jpg");
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  #welcome-section {
+    background-image: url("img/water_fall_med.jpg");
+  }
+}
+
+@media only screen and (max-width: 3000px) {
+  #welcome-section {
+    background-image: url("img/water_fall.jpg");
+  }
+}
+
 #development-section {
-  background-image: url("img/school_house.jpg");
+  /*background-image: url("img/school_house.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  margin: 20px;
+  margin: 10px;
   padding: 0px;
   align-items: center;
   justify-content: center;
   display: grid;
   grid-template-rows: 20% 80%;
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  #development-section {
+    background-image: url("img/school_house_low.jpg");
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  #development-section {
+    background-image: url("img/school_house_med.jpg");
+  }
+}
+
+@media only screen and (max-width: 3000px) {
+  #development-section {
+    background-image: url("img/school_house.jpg");
+  }
 }
 
 #development-content {
@@ -87,18 +125,37 @@ article {
 }
 
 #photography-section {
-  background-image: url("img/purple_iris.jpg");
+  /*background-image: url("img/purple_iris.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  margin: 20px;
+  margin: 10px;
   padding: 0px;
   align-items: center;
   justify-content: center;
   display: grid;
   grid-template-rows: 20% 80%;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+  #photography-section {
+    background-image: url("img/purple_iris_low.jpg");
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  #photography-section {
+    background-image: url("img/purple_iris_med.jpg");
+  }
+}
+
+@media only screen and (max-width: 3000px) {
+  #photography-section {
+    background-image: url("img/purple_iris.jpg");
+  }
 }
 
 #photography-content {
