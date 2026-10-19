@@ -1,64 +1,39 @@
-<!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <link rel="stylesheet" type="text/css" href="main.css">
-      <link rel="prefetch" href="https://ks0jae.smugmug.com/">
-      <meta name="viewport" content="width-device-width, initial-scale=1">
-      <meta name="Description" content="Name: Jeff Enns, Occupation: Software Developer">
-      <title>Jeff Enns</title>
-    </head>
-    <body>
-    <nav id="navbar">
-      <a href="#welcome-section">Welcome</a>
-      <a href="#development-section">Software Development</a>
-      <a href="#photography-section">Photography</a>
-    </nav>
-    <main id="main">
-      <section id="welcome-section">
-        <h1>Jeff Enns</h1>
-        <em>A software developer and amateur photographer</em>
-        <p>
-          My profession is a software developer for Excel Industries and my
-          passion is photography.
-        </p>
-      </section>
-      <section id="development-section">
-        <header>
-          <h2>Software Development</h2>
-          <p>
-            I have been an IT professional for 26 years and full-time developer
-            for 8 of those years coding in C/C++, C# and Perl.
-          </p>
-        </header>
-        <section id="development-content">
-        </section>
-      </section>
-      <section id="photography-section">
-        <header>
-          <h2>Photography</h2>
-          <p>
-            I have been an amateur photographer for 18 years with training
-            in portraiture and wedding photography.  I continue to use a mix
-            of digital and film in my work.  I have a home lab for black and white
-            film development, but use a scanner to digitize the negatives.
-          </p>
-        </header>
-        <section id="photography-content">
-          <article id="Instagram">
-          <a href="https://www.instagram.com/ks0jae/" class="photography-tile">
-            <h2>Instagram</h2>
-          </a>
-          </article>
-          <article id="SmugMug">
-            <header><a href="https://ks0jae.smugmug.com/"><h2>Latest Gallery</h2></a></header>
-            <iframe title="Smugmug Photo Gallery" src="https://ks0jae.smugmug.com/frame/slideshow?key=8FjFmc&autoStart=1&captions=0&navigation=0&playButton=0&randomize=1&speed=3&transition=fade&transitionSpeed=2">
-            </iframe>
-          </article>
-        </section>
-      </section>
-      <section id="footer">
-        <h3>Copyright 2020 - Jeff Enns, Software Developer</h3>
-      </section>
-    </main>
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CyberPenguin — personal projects and field notes.">
+<title>CyberPenguin | Personal terminal</title>
+<link rel="stylesheet" href="./assets/css/theme.css">
+<script src="./assets/js/terminal.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="chassis"><div class="screen">
+<header>
+<div class="topbar"><span><span class="indicator" aria-hidden="true"></span>CyberPenguin / Personal terminal</span><button type="button" data-effects aria-pressed="true" hidden>CRT effects: on</button></div>
+<div class="hero"><div class="eyebrow">Independent system / EST. 2020</div><h1>CyberPenguin<span>_</span></h1><p class="muted">Projects. Field notes. Things worth figuring out.</p><span class="eyebrow">Connection established <span class="cursor" aria-hidden="true"></span></span></div>
+<nav aria-label="Main navigation"><a href="./index.html" data-command="home" aria-current="page">/home</a><a href="./index.html#about" data-command="about">/about</a><a href="./index.html#projects" data-command="projects">/projects</a><a href="./index.html#notes" data-command="notes">/notes</a></nav>
+</header>
+<main id="main" tabindex="-1">
+<!-- EDIT: Replace the text inside these sections. The theme lives in assets/css/theme.css. -->
+<section class="content" id="about"><div class="section-head"><h2>01 / About</h2><span>~/about</span></div>
+<p>Your introduction goes here. A few words about who you are, what you build, and what keeps you curious.</p></section>
+<section class="content" id="projects"><div class="section-head"><h2>02 / Projects</h2><span>~/projects</span></div>
+<div class="grid"><article class="panel"><span class="tag">READY FOR CONTENT</span><h3>Project title</h3><p>Add a short description of something you’re working on.</p><!-- Add a real project link here when ready. --></article>
+<article class="panel"><span class="tag">READY FOR CONTENT</span><h3>Another project</h3><p>Duplicate a panel to add another project. Delete any you don’t need.</p></article></div></section>
+<section class="content" id="notes"><div class="section-head"><h2>03 / Field notes</h2><span>~/notes</span></div>
+<p>A place for experiments, discoveries, and the occasional unexplained kernel message.</p>
+<a href="./pages/template.html">Open the sample entry →</a>
+<details><summary>Expandable section</summary><p>Optional details go here. This works without JavaScript.</p></details></section>
+<aside class="terminal" data-terminal aria-label="Optional terminal navigation" hidden>
+<div class="terminal-label">INTERACTIVE SHELL / type help to explore</div>
+<div class="output" data-output role="log" aria-live="polite" aria-relevant="additions"><p>Session ready. Click the links above or enter a command.</p></div>
+<form class="command"><label for="command">guest@cyberpenguin:~$</label><input id="command" name="command" maxlength="160" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Terminal command"><button type="submit">Run</button></form>
+</aside>
+</main>
+<footer class="footer"><span>© Jeff Enns / CyberPenguin</span><span>END OF TRANSMISSION // <a href="#main">back to content ↑</a></span></footer>
+</div></div>
+</body>
 </html>
